@@ -11,7 +11,7 @@ _________________________________________
 [Click here](https://github.com/nitaybz?utf8=%E2%9C%93&tab=repositories&q=homebridge) to review more of my plugins.
 _________________________________________
 
-#### New version (2.0)  - This plugin is a platform now and have many new features:
+#### New version (2.0)  - This plugin is a platform no w and have many new features:
 
 **Play Playlist** - to play the tracks in their order.
 

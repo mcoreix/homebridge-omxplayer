@@ -1,5 +1,4 @@
 var Player = require('./lib/player');
-var downloader = require('./lib/downloader');
 var async = require("async")
 var Service, Characteristic;
 
@@ -93,15 +92,6 @@ function trackAccessory(log, config, platform) {
     this.loop = config.loop;
     this.path = platform.path
     this.platform = platform
-
-    if (this.youtube) {   
-        this.log('Youtube url found in config, downloading...');
-        var self = this;
-        downloader.download(this.youtube, this.path, this.platform.format, this.log, function (err, filename) {
-            self.filename = filename;
-            self.log('Finished Download: ' + filename);
-        });
-    }
 
 }
 
